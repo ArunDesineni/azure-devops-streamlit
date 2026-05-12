@@ -1,2 +1,21 @@
-# azure-devops-streamlit
-End-to-end DevOps pipeline for Streamlit app
+# 🚀 Azure DevOps Streamlit Pipeline
+
+End-to-end DevOps pipeline for deploying a Streamlit web app.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit
+- **Containerization:** Docker
+- **CI/CD:** GitHub Actions
+- **Registry:** GitHub Container Registry
+- **Cloud:** Microsoft Azure App Service
+- **Language:** Python 3.11
+
+## 📁 Project Structure
+
+azure-devops-streamlit/
+├── app/                 # Application code
+├── tests/               # Unit tests
+├── .github/workflows/   # CI/CD pipelines
+├── Dockerfile           # Container definition
+└── requirements.txt     # Python dependencies
