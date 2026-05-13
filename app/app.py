@@ -46,7 +46,7 @@ def render_sidebar():
 def page_home():
     """Render the Home page."""
     st.title("🚀 AUTO-DEPLOYED via Full CI/CD Pipeline by Arun Desineni! 🎉")
-    st.markdown("### This app demonstrates an end-to-end CI/CD pipeline")
+    st.markdown("### I have built a complete end to end devops project for my learning purpose")
     
     col1, col2, col3 = st.columns(3)
     with col1:
