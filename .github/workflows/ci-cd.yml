@@ -127,7 +127,7 @@ jobs:
         run: |
           az webapp restart \
             --name ${{ secrets.AZURE_WEBAPP_NAME }} \
-            --resource-group $(az webapp show --name ${{ secrets.AZURE_WEBAPP_NAME }} --query resourceGroup -o tsv)
+            --resource-group ${{ secrets.AZURE_RESOURCE_GROUP }}
       
       - name: ✅ Deployment Success
         run: |
