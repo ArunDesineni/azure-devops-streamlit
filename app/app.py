@@ -45,7 +45,7 @@ def render_sidebar():
 # ===== Page: Home =====
 def page_home():
     """Render the Home page."""
-    st.title("🏠 Welcome to the DevOps Demo App")
+    st.title("🚀 AUTO-DEPLOYED via Full CI/CD Pipeline! 🎉")
     st.markdown("### This app demonstrates an end-to-end CI/CD pipeline")
     
     col1, col2, col3 = st.columns(3)
