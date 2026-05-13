@@ -45,7 +45,7 @@ def render_sidebar():
 # ===== Page: Home =====
 def page_home():
     """Render the Home page."""
-    st.title("🚀 AUTO-DEPLOYED via Full CI/CD Pipeline! 🎉")
+    st.title("🚀 AUTO-DEPLOYED via Full CI/CD Pipeline by Arun Desineni! 🎉")
     st.markdown("### This app demonstrates an end-to-end CI/CD pipeline")
     
     col1, col2, col3 = st.columns(3)
